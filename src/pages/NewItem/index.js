@@ -45,9 +45,9 @@ const id = localStorage.getItem('@id');
                     <img src={logo} alt="Nosso café da manhã" />
                    
                     
-                    <Link className="back-link" to="/">
+                    <Link className="back-link" to="/home">
                         <FiArrowLeft size={16} color="#E02041"/>
-                        Já tenho cadastro.
+                        Voltar.
                     </Link>
                 </section>
                 
