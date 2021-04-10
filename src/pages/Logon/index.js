@@ -45,7 +45,7 @@ export default function Logon() {
       <section className="form">
         <img src={logo} alt="Nosso café da manhã" />
         <form onSubmit={handleRegister}>
-          <h1>Faça o seu logon</h1>
+          <h1>Acesse sua conta:</h1>
           <input
             placeholder="Digite seu CPF"
             maxLength="11"
