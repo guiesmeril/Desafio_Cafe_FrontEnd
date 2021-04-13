@@ -19,9 +19,13 @@ export default function Logon() {
   async function handleRegister(e) {
     e.preventDefault();
 
-
-
-    const response = await api.get(`collaborators/${cpf}`);
+    const response = await api.get(`collaborators/${cpf}`,{
+      headers:{
+        Accept:'application/json',
+        'Content-Type': 'application/json',
+        'Acess-Control-Allow-Origin':'*'
+      },
+    });
 
     if (response.data == "") {
 
